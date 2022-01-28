@@ -11,7 +11,7 @@ with open("active_products.csv") as file:
 
 stock_list = []
 
-stock = pd.read_csv("stock.csv", encoding="cp1252", delimiter=";")
+stock = pd.read_csv("stock.csv", encoding="mac_roman", delimiter=";")
 for row in stock["Title"]:
     stock_list.append(row)
 
