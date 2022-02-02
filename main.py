@@ -67,4 +67,4 @@ for inactive_bottle in inactive_bottles_list:
     print(inactive_bottle)
 print(f"Number of inactive bottles: {len(inactive_bottles_list)}\n")
 
-print("Please note that number might be higher because of included:\Vault bottles, weird characters and metabase discrepancies (some bottles are actually active).")
+print("Please note that number might be higher because of included:\weird characters and metabase discrepancies (some bottles are actually active).")
