@@ -14,7 +14,7 @@ Active Products Bot - Flaviar
 
 	1. wms.flaviar.com/inventory -> Only On Stock must be ticked, Product Type = bottle only.
 	2. Export stock.csv and save in the file alongside active_products.csv and main.py.
-	3. Open stock.csv and remove duplicates by ID.
+	3. Open stock.csv and remove duplicates by ID, delete the remainder of duplicates.
 	4. Select B column without the "Title" row -> Text to Columns ->	Delimited (next) -> Other and type in "-" without the quotation marks (next) -> tick Do not import column -> Finish
 	5. Again click Text to Columns -> Fixed width (next) -> Click on the first little line on scale - 1/100 (next) -> Do not import column (skip) -> Finish
 	6. Save file.
